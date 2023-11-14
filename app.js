@@ -10,7 +10,7 @@ var app = express();
 // Use the cors middleware
 app.use(
   cors({
-    origin: "https://swathi60.github.io", // Replace with your frontend URL
+    origin: "https://swathi60.github.io/check", // Replace with your frontend URL
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
     optionsSuccessStatus: 204,
